@@ -3,24 +3,34 @@
     {
       "title": "First Deploy Project",
       "description": "Next.js와 Vercel을 이용한 첫 배포 프로젝트",
-      "url": "https://hongdev.shop"
+      "repos": [
+        { "label": "GitHub Repository", "url": "https://github.com/Hong9915/first-deploy" }
+      ]
+    },
+    {
+      "title": "LG CNS AM Inspire Camp 3th Blog",
+      "description": "LG CNS 미니 프로젝트1",
+      "repos": [
+        { "label": "GitHub BE Repository", "url": "https://github.com/aaahyunseo/inspire3-team6-pj1" },
+        { "label": "GitHub FE Repository", "url": "https://github.com/StarChoiMarine/CNStudy-FE" }
+      ]
     }
   ],
   "certificates": [
     {
       "name": "정보처리기사",
       "issuedBy": "한국산업인력공단",
-      "year": 2025.09
+      "year": "2025.09"
     },
     {
       "name": "SQLD",
       "issuedBy": "한국데이터산업진흥원",
-      "year": 2025.09
+      "year": "2025.09"
     },
     {
       "name": "ADSP",
       "issuedBy": "한국데이터산업진흥원",
-      "year": 2023.09
+      "year": "2023.09"
     }
   ]
 }

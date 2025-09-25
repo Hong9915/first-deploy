@@ -8,12 +8,16 @@ type GeneralInfo = {
   profileImage?: string; // "/coffee.jpeg"
 };
 
-type Project = {
-  title: string;
-  description: string;
+type RepoLink = {
+  label: string;
   url: string;
 };
 
+type Project = {
+  title: string;
+  description: string;
+  repos?: RepoLink[];  //
+};
 type Certificate = {
   name: string;
   issuedBy: string;
@@ -87,9 +91,29 @@ export default async function Home() {
           <h2 className="text-2xl font-semibold">📂 프로젝트</h2>
           <ul className="space-y-4">
             {projects.map((p, i) => (
-              <li key={i} className="rounded-lg border bg-white/70 dark:bg-zinc-800/70 p-5 shadow">
+              <li
+                key={i}ㅋ
+                className="rounded-lg border bg-white/70 dark:bg-zinc-800/70 p-5 shadow"
+              >
                 <h3 className="text-xl font-bold">{p.title}</h3>
-                <p className="text-slate-600 dark:text-slate-300 mb-2">{p.description}</p>
+                <p className="text-slate-600 dark:text-slate-300 mb-3">
+                  {p.description}
+                </p>
+
+                {/* 레포 버튼 */}
+                <div className="flex flex-wrap gap-3">
+                  {p.repos?.map((r, idx) => (
+                    <a
+                      key={idx}
+                      href={r.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 rounded-lg bg-black text-white px-4 py-2 hover:bg-zinc-700 transition"
+                    >
+                      📁 {r.label}
+                    </a>
+                  ))}
+                </div>
               </li>
             ))}
             {projects.length === 0 && (
