@@ -1,7 +1,7 @@
 {
-  "name": "홍형준",
-  "github": "https://github.com/Hong9915",
-  "intro": "안녕하세요! 배우고 있는 개발자 홍형준입니다.",
-  "email": "hhj4498@naver.com",
-  "profileImage" : "/coffee.jpeg"
+    "name": "홍형준",
+    "github": "https://github.com/Hong9915",
+    "email": "hhj4498@naver.com",
+    "intro": "웹 개발과 인공지능에 관심이 많은 개발자예요.",
+    "profileImage": "/coffee.jpeg"
 }

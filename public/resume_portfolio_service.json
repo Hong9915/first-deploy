@@ -1,7 +1,26 @@
-[
-  {
-    "title": "First Deploy Project",
-    "description": "Next.js와 Vercel을 이용한 첫 배포 프로젝트",
-    "url": "https://hongdev.shop"
-  }
-]
+{
+  "projects": [
+    {
+      "title": "First Deploy Project",
+      "description": "Next.js와 Vercel을 이용한 첫 배포 프로젝트",
+      "url": "https://hongdev.shop"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "정보처리기사",
+      "issuedBy": "한국산업인력공단",
+      "year": 2025.09
+    },
+    {
+      "name": "SQLD",
+      "issuedBy": "한국데이터산업진흥원",
+      "year": 2025.09
+    },
+    {
+      "name": "ADSP",
+      "issuedBy": "한국데이터산업진흥원",
+      "year": 2023.09
+    }
+  ]
+}
