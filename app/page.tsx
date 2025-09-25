@@ -92,7 +92,7 @@ export default async function Home() {
           <ul className="space-y-4">
             {projects.map((p, i) => (
               <li
-                key={i}ㅋ
+                key={i}
                 className="rounded-lg border bg-white/70 dark:bg-zinc-800/70 p-5 shadow"
               >
                 <h3 className="text-xl font-bold">{p.title}</h3>
