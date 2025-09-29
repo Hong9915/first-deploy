@@ -53,7 +53,7 @@ export default async function Home() {
         <section className="text-center space-y-6">
           <div className="flex justify-center">
             <Image
-              src={general.profileImage || "/coffee.jpeg"}
+              src={general.profileImage || "/me.jpg"}
               alt="Profile photo"
               width={120}
               height={120}
